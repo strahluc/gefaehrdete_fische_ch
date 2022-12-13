@@ -87,9 +87,6 @@ if file is not None or picture is not None:
             st.error("Leider konnte der Fisch nicht erkannt werden.")
             st.error("Fisch bitte zurück in das Wasser werfen oder beim regionalen Fischereiverband nachfragen.")
         else:
-            #st.success('Der Fisch wurde erkannt!')
-            #st.write("")
-
             lst_name_science = []
             lst_name_ge = []
             lst_danger_state = []
