@@ -68,7 +68,7 @@ if file is not None or picture is not None:
         with st.spinner('Fisch wird erkannt...'):
             time.sleep(5)
             #neues Model noch einsetzen!!
-            model = tf.keras.models.load_model('trained_model.h5')
+            model = tf.keras.models.load_model('trained_model_1.h5')
 
             img = tf.keras.utils.load_img(
                 img, target_size=(224, 224)
