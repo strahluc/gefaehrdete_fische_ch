@@ -143,9 +143,9 @@ if file is not None or picture is not None:
                             link = "https://wikipedia.org/wiki/" + list(myDict["fish_name_science"])[i].replace(" ", "_" )
 
                             st.caption("Gefährdungsstatus")
-                            if status == "Nicht gefaehrdet":
+                            if status.lower() == "nicht gefährdet":
                                 st.success(status)
-                            elif status == "Potenziell gefaehrdet":
+                            elif status.lower() == "potenziell gefährdet":
                                 st.warning(status)
                             else:
                                 st.error(status)
